@@ -1,0 +1,28 @@
+def factorial(n):
+    if n == 0:        # Base case
+        return 1
+    else:             # Recursive case
+        return n * factorial(n - 1)
+
+print(factorial(5))  # Output: 120
+    
+
+
+
+    name = input("Enter student name: ")
+units = int(input("Enter number of registered units: "))
+
+if units > 7:
+    status = "Overload - Approval Required"
+else:
+    status = "Registration Accepted"
+
+print("\n--- Registration Summary ---")
+print(f"Student: {name}")
+print(f"Units: {units}")
+print(f"Status: {status}")
+
+
+
+if username == "adminKE" and password == "254Secure"
+    print("Access Granted")
